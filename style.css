@@ -128,6 +128,7 @@ header p{
     background: linear-gradient(180deg, var(--white-type), var(--red-type));
     padding: 2rem;
     display:flex;
+    flex-wrap: wrap;
 
 }
 .aboutUs-bottom h2{
@@ -174,7 +175,7 @@ footer{
 }
 .footer-end{
     text-align: center;
-    padding: 1rem;
+    /* padding: 1rem; */
     margin-bottom: 0.5rem;
 }
 footer  a{
