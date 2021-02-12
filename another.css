@@ -5,3 +5,49 @@
 .right{
     float: right;
 }
+
+/* media queries */
+/* alignment of header text */
+@media only screen and (min-width: 835px) {
+    header h2{
+        margin-left: 8rem;
+    }
+    header h3{
+        margin-left: 10rem;
+    }
+    header p{
+        margin-left: 14rem;
+    }    
+}
+
+/* 834 header  */
+@media only screen and (min-width:534px) and (max-width: 833px){
+    nav{
+        height: 8rem;
+    }
+    .nav-title{
+        font-size: 3rem;
+    }
+    header{
+        margin-top: 8rem;
+    }
+}
+
+@media only screen and (max-width:533px) {
+    .nav-title{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .nav-item{
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0.5rem;
+    }
+}
+
+@media only screen and (max-width:415px) {
+    body{
+        width: 100%;
+        color: black;
+    }
+}

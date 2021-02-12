@@ -41,45 +41,50 @@ header{
     margin-top:5rem;
     background: rgb(245,162,93);
     background: radial-gradient(circle, var(--orange-type) 66%, var(--white-type) 90%);
-    height: 25rem;
+    /* height: 25rem; */
     text-align: left;
-     
+}
+.sub-header{
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 header h2{
-    margin-left: 8rem;
     padding: 1rem;
     font-size: 2.7rem;
 }   
 header h3{
-    margin-left: 10rem;
     padding: 1rem;
     font-size: 2rem;
 }
 header p{
-    margin-left: 14rem;
     font-size: 1.5rem;
-
 }
 
 
 /* middle section  */
 .section-articles{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 2rem 0 ;
     background: var(--white-type);
     border-bottom: 1px solid black;
 }
 .articles{
-    display: inline-block;
+    text-align: center;
+    max-width: 30rem ;
     border-radius: 5px;
     margin: auto;
 }
 .articles a{
     margin-left: 3rem;
+    
 }
 .articles p{
     font-size: 1.5rem;
+    /* width: 60%; */
 }
 .articles:hover{
      box-shadow: 10px 10px 8px 10px #888888;;
@@ -88,6 +93,7 @@ header p{
     height: 20rem;
     width: 20rem;
     padding: 2rem;
+    margin: auto;
 }
 .articles p{
     padding: 1rem;
